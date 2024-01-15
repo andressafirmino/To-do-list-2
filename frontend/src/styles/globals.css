@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+.btn-category {
+  @apply w-48 h-9 rounded-md flex justify-center items-center cursor-pointer text-xl font-medium text-gray-600
+}
+
+.completed {
+  @apply line-through italic bg-gray-100 bg-opacity-50 text-gray-600
+}
+
+.btn-update {
+  @apply w-44 h-9 rounded-md flex justify-center items-center cursor-pointer text-xl font-medium bg-blue-900 text-white
+}
+
+.btn-completed {
+  @apply w-28 h-9 rounded-md flex justify-center items-center cursor-pointer text-xl font-medium text-white
+}
